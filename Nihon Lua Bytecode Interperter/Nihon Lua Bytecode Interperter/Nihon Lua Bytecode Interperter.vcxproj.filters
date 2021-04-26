@@ -22,17 +22,11 @@
     <Filter Include="Lua">
       <UniqueIdentifier>{7e1017ab-493d-4aa9-bba5-cb5275807154}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Enviroment\Console">
-      <UniqueIdentifier>{58f9e216-3acb-406d-a9cf-d66d5a0d5378}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Checks">
       <UniqueIdentifier>{e1d55888-ab2a-4987-ba3c-562cb59634bc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Enviroment\Mouse / Keyboard">
-      <UniqueIdentifier>{58458ac1-19a5-4dec-8b81-7ab555ed633f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Enviroment\File System">
-      <UniqueIdentifier>{8b473c58-69a2-4e2c-af7f-96b2eba96afc}</UniqueIdentifier>
+    <Filter Include="Source Files\Enviroment\Functions">
+      <UniqueIdentifier>{db9a07e5-5d68-4a04-9d13-7cbaccf27224}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -120,29 +114,29 @@
     <ClInclude Include="Retcheck.h">
       <Filter>Source Files\Checks</Filter>
     </ClInclude>
-    <ClInclude Include="Functions.h">
-      <Filter>Source Files\Enviroment</Filter>
-    </ClInclude>
     <ClInclude Include="Lua.h">
       <Filter>Source Files\Lua Addresses</Filter>
     </ClInclude>
     <ClInclude Include="Addresses.h">
       <Filter>Source Files\Lua Addresses</Filter>
     </ClInclude>
-    <ClInclude Include="Execution.h">
-      <Filter>Source Files\Enviroment</Filter>
-    </ClInclude>
-    <ClInclude Include="Console.h">
-      <Filter>Source Files\Enviroment\Console</Filter>
-    </ClInclude>
     <ClInclude Include="Settings.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Mouse-Keyboard.h">
-      <Filter>Source Files\Enviroment\Mouse / Keyboard</Filter>
+      <Filter>Source Files\Enviroment\Functions</Filter>
     </ClInclude>
     <ClInclude Include="FileSystem.h">
-      <Filter>Source Files\Enviroment\File System</Filter>
+      <Filter>Source Files\Enviroment\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Source Files\Enviroment\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Source Files\Enviroment\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Execution.h">
+      <Filter>Source Files\Enviroment</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
