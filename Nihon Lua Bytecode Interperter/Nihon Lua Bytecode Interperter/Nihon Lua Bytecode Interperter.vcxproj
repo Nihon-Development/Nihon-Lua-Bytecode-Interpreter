@@ -75,7 +75,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>\Nihon Stuff\Nihon Lua Bytecode Interperter\Nihon Lua Bytecode Interperter\Build</OutDir>
+    <OutDir>\Nihon Lua Bytecode Interperter\Nihon Lua Bytecode Interperter\Build</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
