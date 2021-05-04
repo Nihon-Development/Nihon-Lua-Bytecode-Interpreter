@@ -2,4 +2,4 @@
 #include "Console.h"
 
 #define ExploitName "Nihon"
-#define ConsoleIntro ConsoleColorWhite << "[" << ConsoleColorRed << "Nihon" << ConsoleColorWhite << "]" << ConsoleColorRed << ": " << ConsoleColorWhite  
+#define ConsoleIntro ConsoleColorWhite << "[" << ConsoleColorRed << ExploitName << ConsoleColorWhite << "]" << ConsoleColorRed << ": " << ConsoleColorWhite  
