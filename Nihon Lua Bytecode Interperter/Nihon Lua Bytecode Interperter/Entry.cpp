@@ -21,7 +21,7 @@ void ConsoleBypass() {
     freopen("CONIN$", "r", stdin);
     SetWindowPos(GetConsoleWindow(), HWND_TOPMOST, 50, 20, 0, 0, SWP_DRAWFRAME | SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
     ShowWindow(GetConsoleWindow(), 1);
-    SetConsoleTitleA("Nihon | Lua Bytecode Interperter");
+    SetConsoleTitleA("ExploitNameHere | Lua Bytecode Interperter");
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 }
 
@@ -42,8 +42,7 @@ void EntryPoint() {
     RegisterLuaFunctions();
     std::cout << ConsoleIntro << "Ready For Execution\n";
     std::cout << "\n";
-    Sleep(1000);
-    Execute(rL, "game.StarterGui:SetCore('SendNotification', { Title = 'Nihon'; Text = 'Bytecode Interperter Injection Successful'; Icon = 'rbxassetid://5888290650';  Duration = 15; })");
+    Sleep(500);
     while (true)
     {
         std::cout << " > ";
