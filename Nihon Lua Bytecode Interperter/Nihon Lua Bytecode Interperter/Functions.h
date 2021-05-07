@@ -31,18 +31,6 @@ int DebugGetReg(int rL) {
 	return 1;
 }
 
-int Loadstring(int rL) {
-	std::string Script = r_tostring(rL, 1, 0);
-	Execute(rL, Script);
-	return 0;
-}
-
-int HttpGet(int rL) {
-	std::string Content = DownloadUrl(r_tolstring(rL, 1, 0));
-        r_pushlstring(rL, Content.c_str(), Content.size());
-        return 1;
-}
-
 void RegisterLuaFunctions() {
 
 	RegisterMouseKeyboard();
@@ -52,7 +40,5 @@ void RegisterLuaFunctions() {
 	RegisterFunction(rL, reinterpret_cast<int>(GetRenv), "getrenv");
 	RegisterFunction(rL, reinterpret_cast<int>(GetSenv), "getsenv");
 	RegisterFunction(rL, reinterpret_cast<int>(GetReg), "getreg");
-	RegisterFunction(rL, reinterpret_cast<int>(Loadstring), "loadstring");
-        RegisterFunction(rL, reinterpret_cast<int>(HttpGet), "HttpGet");
 
 }
