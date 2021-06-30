@@ -21,7 +21,7 @@ void ConsoleBypass() {
     freopen("CONIN$", "r", stdin);
     SetWindowPos(GetConsoleWindow(), HWND_TOPMOST, 50, 20, 0, 0, SWP_DRAWFRAME | SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
     ShowWindow(GetConsoleWindow(), 1);
-    SetConsoleTitleA("ExploitNameHere | Lua Bytecode Interperter");
+    SetConsoleTitleA("ExploitNameHere - Lua Bytecode Interperter");
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 }
 
