@@ -10,3 +10,5 @@ I Don't Claim Ownership Over The Lua Bytecode Interperter At All None Of It Is M
 
 I No Longer Manage This Its Outdated Needs New Addresses Aswell As Its Trash And Poorly Wrote
 I Don't Recommend Using This But If You Do You Will Need Probably New Bytecode And New Addresses
+
+[![Dicsord](https://img.shields.io/badge/Discord-Join%20Our%20Discord-7289DA)](https://discord.gg/rV3vKju)
